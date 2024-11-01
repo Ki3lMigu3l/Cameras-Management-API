@@ -4,7 +4,7 @@
   <div class="pt-6">
 
     <!-- Loading -->
-    <div *ngIf="loading">
+    <div>
       <div class="fixed w-full h-full z-50 flex justify-center items-center inset-0 bg-slate-900/25 backdrop-blur transition-opacity opacity-100
     ">
         <div class="pointer-events-auto overflow-hidden">
@@ -28,7 +28,7 @@
 
 
     <!-- Processo-->
-    <div *ngIf="progress">
+    <div>
       <div aria-live="assertive"
         class="pointer-events-none absolute inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6">
         <div class="flex w-full flex-col items-center space-y-4 sm:items-end">
@@ -117,7 +117,7 @@
               </svg>
             </button>
           </div>
-          <div *ngIf="isOpen"
+          <div
             class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
               <address class="font-semibold block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
